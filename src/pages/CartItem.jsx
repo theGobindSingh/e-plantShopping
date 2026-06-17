@@ -10,6 +10,10 @@ function CartItem() {
   );
   const [showComingSoon, setShowComingSoon] = useState(false);
 
+  const calculateTotalAmount = () => {
+    return items.reduce((sum, item) => sum + item.totalPrice, 0);
+  };
+
   const handleIncrease = (id, currentQuantity) => {
     dispatch(updateQuantity({ id, quantity: currentQuantity + 1 }));
   };
@@ -108,7 +112,7 @@ function CartItem() {
 
           <div className="cart-total">
             <p>
-              Total ({totalQuantity} items): &#8377;{totalAmount}
+              Total ({totalQuantity} items): &#8377;{calculateTotalAmount()}
             </p>
           </div>
 
