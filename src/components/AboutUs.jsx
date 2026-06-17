@@ -1,29 +1,37 @@
 function AboutUs() {
   return (
-    <div className="about-page">
+    <div className="about-us-container">
       <h2>About Paradise Nursery</h2>
       <p>
-        Paradise Nursery was founded in 2020 with a simple mission: to bring the
-        beauty and benefits of nature into every home. We believe that plants are
-        more than just decoration — they purify the air, boost mood, and create a
-        calming environment.
+        Paradise Nursery is a premier online plant shop dedicated to bringing the
+        beauty and benefits of nature into every home and office. Founded in 2020,
+        our company has grown from a small local nursery to a trusted online
+        destination for plant lovers across the country.
       </p>
       <p>
-        Our team of plant enthusiasts carefully selects each species in our
-        collection, ensuring that every plant we sell is healthy, vibrant, and
-        ready to thrive in its new home. We source our plants from sustainable
-        growers who share our commitment to environmental responsibility.
+        Our mission is to make high-quality, healthy plants accessible to
+        everyone. We believe that plants are more than just decoration — they
+        purify the air, boost mood, reduce stress, and create a calming
+        environment that enhances overall well-being.
       </p>
       <p>
-        Whether you&apos;re a seasoned plant parent or just starting your green
-        journey, Paradise Nursery is here to help you create your own indoor
-        paradise. We offer a wide range of air-purifying plants, aromatic herbs,
-        and flowering indoor plants suitable for homes and offices.
+        We offer a carefully curated selection of houseplants organized into
+        three main categories: Air Purifying Plants that naturally filter indoor
+        air, Aromatic Herbs that bring fragrance and culinary uses to your space,
+        and Indoor Flowering Plants that add vibrant color and beauty to any room.
       </p>
       <p>
-        <strong>Our Commitment:</strong> Quality plants, sustainable practices,
-        and exceptional customer service — because your satisfaction grows with
-        every plant.
+        Our team of plant enthusiasts and horticultural experts carefully selects
+        each species in our collection, ensuring that every plant we sell is
+        healthy, vibrant, and ready to thrive in its new home. We source our
+        plants from sustainable growers who share our commitment to environmental
+        responsibility and ethical farming practices.
+      </p>
+      <p>
+        At Paradise Nursery, we provide exceptional customer service, detailed
+        care instructions for every plant, and a seamless online shopping
+        experience. Whether you are a seasoned plant parent or just starting your
+        green journey, we are here to help you create your own indoor paradise.
       </p>
     </div>
   );

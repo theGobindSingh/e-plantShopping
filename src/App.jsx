@@ -8,13 +8,17 @@ import AboutUs from "./components/AboutUs";
 import "./App.css";
 
 function App() {
-  const [started, setStarted] = useState(false);
+  const [showProductList, setShowProductList] = useState(false);
+
+  const handleGetStartedClick = () => {
+    setShowProductList(true);
+  };
 
   return (
     <Router>
       <div className="app">
-        {!started ? (
-          <LandingPage onGetStarted={() => setStarted(true)} />
+        {!showProductList ? (
+          <LandingPage onGetStarted={handleGetStartedClick} />
         ) : (
           <>
             <Navbar />
